@@ -1,3 +1,6 @@
-fn main(){
-    println!("rshell starting...")
+mod builtins;
+mod parser;
+
+fn main() {
+    println!("rshell starting...");
 }
